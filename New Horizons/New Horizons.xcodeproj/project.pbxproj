@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75CA54491928439500905267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA54481928439500905267 /* Foundation.framework */; };
+		75CA544B1928439500905267 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544A1928439500905267 /* CoreGraphics.framework */; };
+		75CA544D1928439500905267 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544C1928439500905267 /* UIKit.framework */; };
+		75CA54531928439500905267 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75CA54511928439500905267 /* InfoPlist.strings */; };
+		75CA54551928439500905267 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA54541928439500905267 /* main.m */; };
+		75CA54591928439500905267 /* NHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA54581928439500905267 /* NHAppDelegate.m */; };
+		75CA54611928439500905267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CA54601928439500905267 /* Images.xcassets */; };
+		75CA54681928439500905267 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA54671928439500905267 /* XCTest.framework */; };
+		75CA54691928439500905267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA54481928439500905267 /* Foundation.framework */; };
+		75CA546A1928439500905267 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544C1928439500905267 /* UIKit.framework */; };
+		75CA54721928439500905267 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75CA54701928439500905267 /* InfoPlist.strings */; };
+		75CA54741928439500905267 /* New_HorizonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA54731928439500905267 /* New_HorizonsTests.m */; };
+		75CA548B19284B1200905267 /* NHContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA547E19284B1200905267 /* NHContactViewController.m */; };
+		75CA548C19284B1200905267 /* NHDonate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548019284B1200905267 /* NHDonate.m */; };
+		75CA548D19284B1200905267 /* NHEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548219284B1200905267 /* NHEventsViewController.m */; };
+		75CA548E19284B1200905267 /* NHHoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548419284B1200905267 /* NHHoursViewController.m */; };
+		75CA548F19284B1200905267 /* NHMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548619284B1200905267 /* NHMain.m */; };
+		75CA549019284B1200905267 /* NHNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548819284B1200905267 /* NHNewsViewController.m */; };
+		75CA549119284B1200905267 /* NHVolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548A19284B1200905267 /* NHVolViewController.m */; };
+		75CA549319284B1800905267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CA549219284B1800905267 /* Main.storyboard */; };
+		75CA549619284BDB00905267 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CA549419284BDB00905267 /* header.png */; };
+		75CA549719284BDB00905267 /* page header.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CA549519284BDB00905267 /* page header.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75CA546B1928439500905267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75CA543D1928439500905267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75CA54441928439500905267;
+			remoteInfo = "New Horizons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75CA54451928439500905267 /* New Horizons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Horizons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CA54481928439500905267 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75CA544A1928439500905267 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75CA544C1928439500905267 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75CA54501928439500905267 /* New Horizons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "New Horizons-Info.plist"; sourceTree = "<group>"; };
+		75CA54521928439500905267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75CA54541928439500905267 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75CA54561928439500905267 /* New Horizons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "New Horizons-Prefix.pch"; sourceTree = "<group>"; };
+		75CA54571928439500905267 /* NHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAppDelegate.h; sourceTree = "<group>"; };
+		75CA54581928439500905267 /* NHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAppDelegate.m; sourceTree = "<group>"; };
+		75CA54601928439500905267 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75CA54661928439500905267 /* New HorizonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New HorizonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CA54671928439500905267 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75CA546F1928439500905267 /* New HorizonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "New HorizonsTests-Info.plist"; sourceTree = "<group>"; };
+		75CA54711928439500905267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75CA54731928439500905267 /* New_HorizonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = New_HorizonsTests.m; sourceTree = "<group>"; };
+		75CA547D19284B1200905267 /* NHContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHContactViewController.h; sourceTree = "<group>"; };
+		75CA547E19284B1200905267 /* NHContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHContactViewController.m; sourceTree = "<group>"; };
+		75CA547F19284B1200905267 /* NHDonate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDonate.h; sourceTree = "<group>"; };
+		75CA548019284B1200905267 /* NHDonate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDonate.m; sourceTree = "<group>"; };
+		75CA548119284B1200905267 /* NHEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHEventsViewController.h; sourceTree = "<group>"; };
+		75CA548219284B1200905267 /* NHEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHEventsViewController.m; sourceTree = "<group>"; };
+		75CA548319284B1200905267 /* NHHoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHoursViewController.h; sourceTree = "<group>"; };
+		75CA548419284B1200905267 /* NHHoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHHoursViewController.m; sourceTree = "<group>"; };
+		75CA548519284B1200905267 /* NHMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMain.h; sourceTree = "<group>"; };
+		75CA548619284B1200905267 /* NHMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHMain.m; sourceTree = "<group>"; };
+		75CA548719284B1200905267 /* NHNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNewsViewController.h; sourceTree = "<group>"; };
+		75CA548819284B1200905267 /* NHNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHNewsViewController.m; sourceTree = "<group>"; };
+		75CA548919284B1200905267 /* NHVolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHVolViewController.h; sourceTree = "<group>"; };
+		75CA548A19284B1200905267 /* NHVolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHVolViewController.m; sourceTree = "<group>"; };
+		75CA549219284B1800905267 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		75CA549419284BDB00905267 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		75CA549519284BDB00905267 /* page header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page header.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75CA54421928439500905267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CA544B1928439500905267 /* CoreGraphics.framework in Frameworks */,
+				75CA544D1928439500905267 /* UIKit.framework in Frameworks */,
+				75CA54491928439500905267 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CA54631928439500905267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CA54681928439500905267 /* XCTest.framework in Frameworks */,
+				75CA546A1928439500905267 /* UIKit.framework in Frameworks */,
+				75CA54691928439500905267 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75CA543C1928439500905267 = {
+			isa = PBXGroup;
+			children = (
+				75CA544E1928439500905267 /* New Horizons */,
+				75CA546D1928439500905267 /* New HorizonsTests */,
+				75CA54471928439500905267 /* Frameworks */,
+				75CA54461928439500905267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75CA54461928439500905267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75CA54451928439500905267 /* New Horizons.app */,
+				75CA54661928439500905267 /* New HorizonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75CA54471928439500905267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75CA54481928439500905267 /* Foundation.framework */,
+				75CA544A1928439500905267 /* CoreGraphics.framework */,
+				75CA544C1928439500905267 /* UIKit.framework */,
+				75CA54671928439500905267 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75CA544E1928439500905267 /* New Horizons */ = {
+			isa = PBXGroup;
+			children = (
+				75CA549219284B1800905267 /* Main.storyboard */,
+				75CA547D19284B1200905267 /* NHContactViewController.h */,
+				75CA547E19284B1200905267 /* NHContactViewController.m */,
+				75CA547F19284B1200905267 /* NHDonate.h */,
+				75CA548019284B1200905267 /* NHDonate.m */,
+				75CA548119284B1200905267 /* NHEventsViewController.h */,
+				75CA548219284B1200905267 /* NHEventsViewController.m */,
+				75CA548319284B1200905267 /* NHHoursViewController.h */,
+				75CA548419284B1200905267 /* NHHoursViewController.m */,
+				75CA548519284B1200905267 /* NHMain.h */,
+				75CA548619284B1200905267 /* NHMain.m */,
+				75CA548719284B1200905267 /* NHNewsViewController.h */,
+				75CA548819284B1200905267 /* NHNewsViewController.m */,
+				75CA548919284B1200905267 /* NHVolViewController.h */,
+				75CA548A19284B1200905267 /* NHVolViewController.m */,
+				75CA54571928439500905267 /* NHAppDelegate.h */,
+				75CA54581928439500905267 /* NHAppDelegate.m */,
+				75CA54601928439500905267 /* Images.xcassets */,
+				75CA544F1928439500905267 /* Supporting Files */,
+			);
+			path = "New Horizons";
+			sourceTree = "<group>";
+		};
+		75CA544F1928439500905267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75CA549419284BDB00905267 /* header.png */,
+				75CA549519284BDB00905267 /* page header.png */,
+				75CA54501928439500905267 /* New Horizons-Info.plist */,
+				75CA54511928439500905267 /* InfoPlist.strings */,
+				75CA54541928439500905267 /* main.m */,
+				75CA54561928439500905267 /* New Horizons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75CA546D1928439500905267 /* New HorizonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				75CA54731928439500905267 /* New_HorizonsTests.m */,
+				75CA546E1928439500905267 /* Supporting Files */,
+			);
+			path = "New HorizonsTests";
+			sourceTree = "<group>";
+		};
+		75CA546E1928439500905267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75CA546F1928439500905267 /* New HorizonsTests-Info.plist */,
+				75CA54701928439500905267 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75CA54441928439500905267 /* New Horizons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CA54771928439500905267 /* Build configuration list for PBXNativeTarget "New Horizons" */;
+			buildPhases = (
+				75CA54411928439500905267 /* Sources */,
+				75CA54421928439500905267 /* Frameworks */,
+				75CA54431928439500905267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New Horizons";
+			productName = "New Horizons";
+			productReference = 75CA54451928439500905267 /* New Horizons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75CA54651928439500905267 /* New HorizonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CA547A1928439500905267 /* Build configuration list for PBXNativeTarget "New HorizonsTests" */;
+			buildPhases = (
+				75CA54621928439500905267 /* Sources */,
+				75CA54631928439500905267 /* Frameworks */,
+				75CA54641928439500905267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75CA546C1928439500905267 /* PBXTargetDependency */,
+			);
+			name = "New HorizonsTests";
+			productName = "New HorizonsTests";
+			productReference = 75CA54661928439500905267 /* New HorizonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75CA543D1928439500905267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hackademy;
+				TargetAttributes = {
+					75CA54651928439500905267 = {
+						TestTargetID = 75CA54441928439500905267;
+					};
+				};
+			};
+			buildConfigurationList = 75CA54401928439500905267 /* Build configuration list for PBXProject "New Horizons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75CA543C1928439500905267;
+			productRefGroup = 75CA54461928439500905267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75CA54441928439500905267 /* New Horizons */,
+				75CA54651928439500905267 /* New HorizonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75CA54431928439500905267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CA549319284B1800905267 /* Main.storyboard in Resources */,
+				75CA549719284BDB00905267 /* page header.png in Resources */,
+				75CA54611928439500905267 /* Images.xcassets in Resources */,
+				75CA549619284BDB00905267 /* header.png in Resources */,
+				75CA54531928439500905267 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CA54641928439500905267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CA54721928439500905267 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75CA54411928439500905267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CA54591928439500905267 /* NHAppDelegate.m in Sources */,
+				75CA54551928439500905267 /* main.m in Sources */,
+				75CA548C19284B1200905267 /* NHDonate.m in Sources */,
+				75CA549019284B1200905267 /* NHNewsViewController.m in Sources */,
+				75CA549119284B1200905267 /* NHVolViewController.m in Sources */,
+				75CA548F19284B1200905267 /* NHMain.m in Sources */,
+				75CA548D19284B1200905267 /* NHEventsViewController.m in Sources */,
+				75CA548E19284B1200905267 /* NHHoursViewController.m in Sources */,
+				75CA548B19284B1200905267 /* NHContactViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CA54621928439500905267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CA54741928439500905267 /* New_HorizonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75CA546C1928439500905267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75CA54441928439500905267 /* New Horizons */;
+			targetProxy = 75CA546B1928439500905267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75CA54511928439500905267 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75CA54521928439500905267 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75CA54701928439500905267 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75CA54711928439500905267 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75CA54751928439500905267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75CA54761928439500905267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75CA54781928439500905267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "New Horizons/New Horizons-Prefix.pch";
+				INFOPLIST_FILE = "New Horizons/New Horizons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75CA54791928439500905267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "New Horizons/New Horizons-Prefix.pch";
+				INFOPLIST_FILE = "New Horizons/New Horizons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75CA547B1928439500905267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/New Horizons.app/New Horizons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "New Horizons/New Horizons-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "New HorizonsTests/New HorizonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75CA547C1928439500905267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/New Horizons.app/New Horizons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "New Horizons/New Horizons-Prefix.pch";
+				INFOPLIST_FILE = "New HorizonsTests/New HorizonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75CA54401928439500905267 /* Build configuration list for PBXProject "New Horizons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CA54751928439500905267 /* Debug */,
+				75CA54761928439500905267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75CA54771928439500905267 /* Build configuration list for PBXNativeTarget "New Horizons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CA54781928439500905267 /* Debug */,
+				75CA54791928439500905267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75CA547A1928439500905267 /* Build configuration list for PBXNativeTarget "New HorizonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CA547B1928439500905267 /* Debug */,
+				75CA547C1928439500905267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75CA543D1928439500905267 /* Project object */;
+}
