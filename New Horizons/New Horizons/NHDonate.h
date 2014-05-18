@@ -13,5 +13,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblDonateMessage;
 @property (weak, nonatomic) IBOutlet UIButton *btnWishList;
 @property (weak, nonatomic) IBOutlet UIButton *btnMoney;
-
+- (IBAction)openDonatePage:(id)sender;
 @end

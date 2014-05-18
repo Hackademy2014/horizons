@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHContactViewController : UIViewController
-
+@interface NHContactViewController : UIViewController <UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIButton *btnFacebook;
+@property (weak, nonatomic) IBOutlet UIScrollView *sclView;
+@property (weak, nonatomic) IBOutlet UIWebView *wvContacts;
+- (IBAction)openFacebookPage:(id)sender;
 @end

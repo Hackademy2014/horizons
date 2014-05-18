@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHEventsViewController : UIViewController
+@interface NHEventsViewController : UIViewController{
+    NSString *googlePage;
+}
+@property (weak, nonatomic) IBOutlet UITextView *dataTextView;
 
 @end

@@ -89,9 +89,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) openDonatePage
+- (IBAction)openDonatePage:(id)sender
 {
-    http://htmlpreview.github.io/?https://github.com/Hackademy2014/horizons/blob/master/New%20Horizons/paypal.html
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://htmlpreview.github.io/?https://github.com/Hackademy2014/horizons/blob/master/New%20Horizons/paypal.html"]];
 }
 
 /*

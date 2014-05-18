@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		75758D4719287070007229FB /* NHWishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75758D4619287070007229FB /* NHWishListViewController.m */; };
+		75758D4B192899C6007229FB /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 75758D4A192899C6007229FB /* facebook.png */; };
 		75CA54491928439500905267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA54481928439500905267 /* Foundation.framework */; };
 		75CA544B1928439500905267 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544A1928439500905267 /* CoreGraphics.framework */; };
 		75CA544D1928439500905267 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544C1928439500905267 /* UIKit.framework */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		75758D4519287070007229FB /* NHWishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHWishListViewController.h; sourceTree = "<group>"; };
 		75758D4619287070007229FB /* NHWishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHWishListViewController.m; sourceTree = "<group>"; };
+		75758D4A192899C6007229FB /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		75CA54451928439500905267 /* New Horizons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Horizons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CA54481928439500905267 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75CA544A1928439500905267 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +167,7 @@
 		75CA544F1928439500905267 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75758D4A192899C6007229FB /* facebook.png */,
 				75CA549419284BDB00905267 /* header.png */,
 				75CA549519284BDB00905267 /* page header.png */,
 				75CA54501928439500905267 /* New Horizons-Info.plist */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CA549319284B1800905267 /* Main.storyboard in Resources */,
+				75758D4B192899C6007229FB /* facebook.png in Resources */,
 				75CA549719284BDB00905267 /* page header.png in Resources */,
 				75CA54611928439500905267 /* Images.xcassets in Resources */,
 				75CA549619284BDB00905267 /* header.png in Resources */,

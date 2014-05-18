@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHNewsViewController : UIViewController
+@interface NHNewsViewController : UIViewController{
+    NSString *googlePage;
+}
+@property (weak, nonatomic) IBOutlet UITextView *dataTextView;
 
 @end
