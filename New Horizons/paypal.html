@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Written for 2014 Dyn Hackademy challenge -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=200">
@@ -13,14 +14,31 @@
             background-color:rgb(249, 243, 217);
             text-align:center;
         }
+        #launchApp{
+            background:#00adee;
+            background:-webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+            color:white;
+            font-weight:bold;
+            display:inline-block;
+            margin:0 2px;
+            outline:none;
+            text-align:center;
+            text-decoration:none;
+            font-size:9px;
+            padding:5px 7px;
+            -webkit-border-radius:5px;
+            border-radius:5px;
+            box-shadow: 0 1px 2px rgba(0,0,0,.2);
+            width:150px;
+        }
         .donation{
-            margin-bottom:40px;
+            margin-bottom:20px;
         }
         .donation-type{
             color:#336AB0;
             font-size:11px;
             text-align:center;
-            padding-bottom:10px;
+            padding-bottom:10px;    
             font-weight:bold;
             margin-bottom:-10px;
             margin-top:10px;
@@ -40,6 +58,7 @@
     </style>
 </head>
 <body>
+    <a id='launchApp' href='newhorizonsnh://'>&lt;&nbsp;Back to New Horizons app</a>
     <div id='monthly' class='donation'>
         <h1 class='donation-type'>Monthly Donation</h1>
         <p class='donation-description'>If you would like to make a monetary donation to New Horizons, choose from the options below.</p>

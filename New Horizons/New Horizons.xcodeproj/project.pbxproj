@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75758D4719287070007229FB /* NHWishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75758D4619287070007229FB /* NHWishListViewController.m */; };
 		75CA54491928439500905267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA54481928439500905267 /* Foundation.framework */; };
 		75CA544B1928439500905267 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544A1928439500905267 /* CoreGraphics.framework */; };
 		75CA544D1928439500905267 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544C1928439500905267 /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75758D4519287070007229FB /* NHWishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHWishListViewController.h; sourceTree = "<group>"; };
+		75758D4619287070007229FB /* NHWishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHWishListViewController.m; sourceTree = "<group>"; };
 		75CA54451928439500905267 /* New Horizons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Horizons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CA54481928439500905267 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75CA544A1928439500905267 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -139,6 +142,8 @@
 				75CA547E19284B1200905267 /* NHContactViewController.m */,
 				75CA547F19284B1200905267 /* NHDonate.h */,
 				75CA548019284B1200905267 /* NHDonate.m */,
+				75758D4519287070007229FB /* NHWishListViewController.h */,
+				75758D4619287070007229FB /* NHWishListViewController.m */,
 				75CA548119284B1200905267 /* NHEventsViewController.h */,
 				75CA548219284B1200905267 /* NHEventsViewController.m */,
 				75CA548319284B1200905267 /* NHHoursViewController.h */,
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CA54591928439500905267 /* NHAppDelegate.m in Sources */,
+				75758D4719287070007229FB /* NHWishListViewController.m in Sources */,
 				75CA54551928439500905267 /* main.m in Sources */,
 				75CA548C19284B1200905267 /* NHDonate.m in Sources */,
 				75CA549019284B1200905267 /* NHNewsViewController.m in Sources */,

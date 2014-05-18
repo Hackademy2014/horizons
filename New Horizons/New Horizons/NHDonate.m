@@ -89,6 +89,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) openDonatePage
+{
+    http://htmlpreview.github.io/?https://github.com/Hackademy2014/horizons/blob/master/New%20Horizons/paypal.html
+}
+
 /*
 #pragma mark - Navigation
 
