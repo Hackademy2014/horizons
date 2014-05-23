@@ -31,6 +31,7 @@
 		75CA549319284B1800905267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CA549219284B1800905267 /* Main.storyboard */; };
 		75CA549619284BDB00905267 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CA549419284BDB00905267 /* header.png */; };
 		75CA549719284BDB00905267 /* page header.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CA549519284BDB00905267 /* page header.png */; };
+		7CF05F62192CF11A00876A8E /* NHCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF05F61192CF11A00876A8E /* NHCommon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		75CA549219284B1800905267 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		75CA549419284BDB00905267 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 		75CA549519284BDB00905267 /* page header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page header.png"; sourceTree = "<group>"; };
+		7CF05F60192CF11A00876A8E /* NHCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCommon.h; sourceTree = "<group>"; };
+		7CF05F61192CF11A00876A8E /* NHCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCommon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 				75CA54461928439500905267 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		75CA54461928439500905267 /* Products */ = {
 			isa = PBXGroup;
@@ -160,6 +164,8 @@
 				75CA54581928439500905267 /* NHAppDelegate.m */,
 				75CA54601928439500905267 /* Images.xcassets */,
 				75CA544F1928439500905267 /* Supporting Files */,
+				7CF05F60192CF11A00876A8E /* NHCommon.h */,
+				7CF05F61192CF11A00876A8E /* NHCommon.m */,
 			);
 			path = "New Horizons";
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF05F62192CF11A00876A8E /* NHCommon.m in Sources */,
 				75CA54591928439500905267 /* NHAppDelegate.m in Sources */,
 				75758D4719287070007229FB /* NHWishListViewController.m in Sources */,
 				75CA54551928439500905267 /* main.m in Sources */,
