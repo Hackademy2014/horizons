@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Hackademy. All rights reserved.
 //
 
+#import "NHCommon.h"
 #import "NHVolViewController.h"
 
 @interface NHVolViewController ()
@@ -29,55 +30,8 @@
     
     self.navigationController.navigationBar.hidden = NO;
     
-    //-------------------------------------------------------------------------------------------
-    //
-    //making the buttons awesome - gradient buttons
-    //
-    //-------------------------------------------------------------------------------------------
-    
     NSArray *buttons = [NSArray arrayWithObjects: self.btnVolNow, nil];
-    
-    
-    for(UIButton *btn in buttons)
-    {
-        
-        // BEGIN WORKING FROM TUTORIAL HERE
-        
-        // Set the button Text Color
-        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        [btn setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
-        
-        // Set default background color
-        [btn setBackgroundColor:[UIColor blackColor]];
-        
-        // Add Custom Font
-        [[btn titleLabel] setFont:[UIFont fontWithName:@"Knewave" size:18.0f]];
-        
-        // Draw a custom gradient
-        CAGradientLayer *btnGradient = [CAGradientLayer layer];
-        btnGradient.frame = btn.bounds;
-        btnGradient.colors = [NSArray arrayWithObjects:
-                              (id)[[UIColor colorWithRed:248.0f / 255.0f green:154.0f / 255.0f blue:65.0f / 255.0f alpha:1.0f] CGColor],
-                              (id)[[UIColor colorWithRed:254.0f / 255.0f green:213.0f / 255.0f blue:41.0f / 255.0f alpha:1.0f] CGColor],
-                              nil];
-        [btn.layer insertSublayer:btnGradient atIndex:0];
-        
-        // Round button corners
-        CALayer *btnLayer = [btn layer];
-        [btnLayer setMasksToBounds:YES];
-        [btnLayer setCornerRadius:5.0f];
-        
-        // Apply a 1 pixel, black border around Buy Button
-        [btnLayer setBorderWidth:1.0f];
-        [btnLayer setBorderColor:[[UIColor orangeColor] CGColor]];
-    }  //end for
-    
-    //---------------------------end of awesome button making-----------------------------------------
-    
-    // volunteer info
-    self.lblVol.numberOfLines = 0;
-    self.lblVol.text = @"New Horizons always needs volunteers for helping with meal preparation, sorting and packing food, picking up donated product and many other opportunities. We ask that children under the age of 16 be accompanied by an adult. This is a great way to make a difference in our community. ";
-    
+    styleButtonsWithGradient(buttons, 251, 186, 84, 1.0f, 249, 139, 60, 1.0f, 5.0f, 0.0f, [UIColor blackColor], [UIColor whiteColor], [UIColor blackColor], @"HelveticaNeue-Bold", 16.0f);
 
 }
 
