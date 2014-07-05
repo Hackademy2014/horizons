@@ -1,0 +1,40 @@
+{
+	"Soup Kitchen" : [
+		"Coffee",
+		"Cereal",
+		"Sugar",
+		"Creamer",
+		"Salt"
+	],
+	"Food Pantry" : [
+		"Peanut Butter",
+		"Jelly",
+		"Cereal",
+		"Baked Beans",
+		"Macaroni & Cheese",
+		"Canned Vegetables",
+		"Canned Tomatoes",
+		"Canned Fruit",
+		"Sauce",
+		"Tuna Fish",
+		"Pasta"
+	],
+	"Shelter" : [
+		"Personal Size Toiletries",
+		"Shampoo",
+		"Underwear",
+		"Plastic Shower Curtain Liners",
+		"Laundry Detergent",
+		"Disposable Razors",
+		"Shoes",
+		"Sneakers",
+		"Bath Towels",
+		"Gas Gift Cards",
+		"Deodorant"
+	],
+	"Day Program" : [
+		"City Bus Passes",
+		"Stamps",
+		"Date Books"
+	]
+}
