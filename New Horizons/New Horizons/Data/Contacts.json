@@ -1,0 +1,83 @@
+{
+	"organizations" : [
+		{
+			"name" : "New Horizons",
+			"address" : [
+				"199 Manchester Street",
+				"Manchester, NH 031013"
+			],
+			"phone" : {
+				"display" : "(603)-668-1877",
+				"numeric" : "6036681877"
+			},
+			"fax" : "(603)-668-2578"
+		},
+		{
+			"name" : "Angie's",
+			"address" : [
+				"434 Union Street",
+				"Manchester, NH 03103"
+			],
+			"phone" : {
+				"display" : "(603)-668-8698",
+				"numeric" : "6036688698"
+			}
+		}
+	],
+	"people" : [
+		{
+			"name" : "Charlie Sherman",
+			"position" : "Executive Director",
+			"phone" : {
+				"display" : "(603)-668-1877 x114",
+				"numeric" : "6036681877p114"
+			},
+			"email" : "Charlie.Sherman@newhorizonsfornh.org"
+		},
+		{
+			"name" : "Kevin Kintner",
+			"position" : "Program Director",
+			"phone" : {
+				"display" : "(603)-668-1877 x115",
+				"numeric" : "6036681877p115"
+			},
+			"email" : "Kevin.Kintner@newhorizonsfornh.org"
+		},
+		{
+			"name" : "Gail Yorkell",
+			"position" : "Finance Manager",
+			"phone" : {
+				"display" : "(603)-668-1877 x119",
+				"numeric" : "6036681877p119"
+			},
+			"email" : "Finance01@newhorizonsfornh.org"
+		},
+		{
+			"name" : "Mary K. Silva",
+			"position" : "Food Service & Volunteer Manager",
+			"phone" : {
+				"display" : "(603)-668-1877 x122",
+				"numeric" : "6036681877p122"
+			},
+			"email" : "Mary.Silva@newhorizonsfornh.org"
+		},
+		{
+			"name" : "Michelle Casale",
+			"position" : "Development Director",
+			"phone" : {
+				"display" : "(603)-668-1877 x125",
+				"numeric" : "6036681877p125"
+			},
+			"email" : "Michelle.Casale@newhorizonsfornh.org"
+		},
+		{
+			"name" : "Cheryl Hunt",
+			"position" : "Angie's Program Director",
+			"phone" : {
+				"display" : "(603)-668-8698",
+				"numeric" : "6036688698"
+			},
+			"email" : "angies@newhorizonsfornh.org"
+		}
+	]
+}
