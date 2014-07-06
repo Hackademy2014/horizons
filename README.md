@@ -1,4 +1,4 @@
-horizons
+newhorizons
 ========
 
 www.newhorizonsfornh.org

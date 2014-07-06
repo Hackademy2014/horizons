@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Written for 2014 Dyn Hackademy challenge -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=200">
+    <title>Donate to New Horizons NH</title>
+    <script>
+        
+    </script>
+    <style>
+        body{
+            font-family:Papyrus,Verdana, Geneva, Arial, Helvetica, sans-serif;
+            font-size:9px;
+            background-color:rgb(249, 243, 217);
+            text-align:center;
+        }
+        #launchApp{
+            background:#78b5f6;
+            background:-moz-linear-gradient(top,  #78b5f6 0%, #3066ae 100%);
+            background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#78b5f6), color-stop(100%,#3066ae));
+            background:-webkit-linear-gradient(top,  #78b5f6 0%,#3066ae 100%);
+            background:-o-linear-gradient(top,  #78b5f6 0%,#3066ae 100%);
+            background:-ms-linear-gradient(top,  #78b5f6 0%,#3066ae 100%);
+            background:linear-gradient(to bottom,  #78b5f6 0%,#3066ae 100%);
+            color:white;
+            font-family:"Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+            font-size:9px;
+            font-weight:bold;
+            display:inline-block;
+            margin:0 2px;
+            outline:none;
+            text-align:center;
+            text-decoration:none;
+            padding:5px 7px;
+            -webkit-border-radius:5px;
+            border-radius:5px;
+            width:150px;
+        }
+        .donation{
+            margin-bottom:20px;
+        }
+        .donation-type{
+            color:#336AB0;
+            font-size:11px;
+            text-align:center;
+            padding-bottom:10px;    
+            font-weight:bold;
+            margin-bottom:-10px;
+            margin-top:10px;
+        }
+        .donation-description{
+            margin:7px;
+            padding:0;
+            font-size:8px;
+            text-align:left;
+        }
+        table{
+            margin:auto;
+        }
+        input[name='submit']{
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+    <a id='launchApp' href='newhorizonsnh://'>&#8592;&nbsp;&nbsp;Back to New Horizons</a>
+    <div id='monthly' class='donation'>
+        <h1 class='donation-type'>Monthly Donation</h1>
+        <p class='donation-description'>If you would like to make a monetary donation to New Horizons, choose from the options below.</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="M66Z6AKLU8P4E">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="hidden" name="on0" value="Payment Options">
+                            Payment Options
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="os0">
+                                <option value="Option 1">$10.00USD - monthly</option>
+                                <option value="Option 2">$25.00USD - monthly</option>
+                                <option value="Option 3">$50.00USD - monthly</option>
+                                <option value="Option 4">$75.00USD - monthly</option>
+                                <option value="Option 5">$100.00USD - monthly</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" alt="PayPal - The safer, easier way to pay online!">
+            <img src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" alt="" width="1" height="1">
+        </form>
+    </div><!-- div#monthly -->
+    
+    <div id='once' class='donation'>
+        <h1 class='donation-type'>One-Time Donation</h1>
+        <p class='donation-description'>You can also choose to make a one-time contribution by clicking below.</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="AF7TJE8GCAXES">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </div><!-- div#once -->
+</body>
+</html>
