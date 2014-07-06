@@ -1,0 +1,31 @@
+{
+	"hours" : [
+		{
+			"name" : "Soup Kitchen",
+			"content" : [
+				"People over 50 - meals are served at 3:00pm",
+				"Everyone else - meals are served at 4:30pm"
+			]
+		},
+		{
+			"name" : "Bread Line",
+			"content" : [
+				"Monday - Wednesday - Friday",
+				"1:30pm",
+				"",
+				"Tuesday",
+				"12:30pm"
+			]
+		},
+		{
+			"name" : "Food Pantry",
+			"content" : [
+				"Monday - Wednesday - Friday",
+				"12:00pm - 1:00pm",
+				"",
+				"Thursday evenings",
+				"6:00pm - 7:00pm"
+			]
+		}
+	]
+}

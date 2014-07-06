@@ -7,31 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75758D4719287070007229FB /* NHWishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75758D4619287070007229FB /* NHWishListViewController.m */; };
-		75758D4B192899C6007229FB /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 75758D4A192899C6007229FB /* facebook.png */; };
 		75CA54491928439500905267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA54481928439500905267 /* Foundation.framework */; };
 		75CA544B1928439500905267 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544A1928439500905267 /* CoreGraphics.framework */; };
 		75CA544D1928439500905267 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544C1928439500905267 /* UIKit.framework */; };
-		75CA54531928439500905267 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75CA54511928439500905267 /* InfoPlist.strings */; };
-		75CA54551928439500905267 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA54541928439500905267 /* main.m */; };
-		75CA54591928439500905267 /* NHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA54581928439500905267 /* NHAppDelegate.m */; };
-		75CA54611928439500905267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CA54601928439500905267 /* Images.xcassets */; };
 		75CA54681928439500905267 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA54671928439500905267 /* XCTest.framework */; };
 		75CA54691928439500905267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA54481928439500905267 /* Foundation.framework */; };
 		75CA546A1928439500905267 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CA544C1928439500905267 /* UIKit.framework */; };
 		75CA54721928439500905267 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75CA54701928439500905267 /* InfoPlist.strings */; };
 		75CA54741928439500905267 /* New_HorizonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA54731928439500905267 /* New_HorizonsTests.m */; };
-		75CA548B19284B1200905267 /* NHContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA547E19284B1200905267 /* NHContactViewController.m */; };
-		75CA548C19284B1200905267 /* NHDonate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548019284B1200905267 /* NHDonate.m */; };
-		75CA548D19284B1200905267 /* NHEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548219284B1200905267 /* NHEventsViewController.m */; };
-		75CA548E19284B1200905267 /* NHHoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548419284B1200905267 /* NHHoursViewController.m */; };
-		75CA548F19284B1200905267 /* NHMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548619284B1200905267 /* NHMain.m */; };
-		75CA549019284B1200905267 /* NHNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548819284B1200905267 /* NHNewsViewController.m */; };
-		75CA549119284B1200905267 /* NHVolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CA548A19284B1200905267 /* NHVolViewController.m */; };
 		75CA549319284B1800905267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CA549219284B1800905267 /* Main.storyboard */; };
-		75CA549619284BDB00905267 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CA549419284BDB00905267 /* header.png */; };
-		75CA549719284BDB00905267 /* page header.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CA549519284BDB00905267 /* page header.png */; };
-		7CF05F62192CF11A00876A8E /* NHCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF05F61192CF11A00876A8E /* NHCommon.m */; };
+		7C4C0CD21969B58A00C2F645 /* Contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C4C0CD11969B58A00C2F645 /* Contacts.json */; };
+		7C4C0CDA1969F6AD00C2F645 /* TaggedTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4C0CD91969F6AD00C2F645 /* TaggedTap.m */; };
+		7C655B9B1968DFFA006C2B4C /* NHEventsItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C655B9A1968DFFA006C2B4C /* NHEventsItemViewController.m */; };
+		7C655B9D1968E8DA006C2B4C /* Hours.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C655B9C1968E8DA006C2B4C /* Hours.json */; };
+		7CCF06801968CCED008EFA6F /* NHCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF063A1968CCED008EFA6F /* NHCommon.m */; };
+		7CCF06811968CCED008EFA6F /* NHContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF063F1968CCED008EFA6F /* NHContactViewController.m */; };
+		7CCF06821968CCED008EFA6F /* NHDonate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06421968CCED008EFA6F /* NHDonate.m */; };
+		7CCF06831968CCED008EFA6F /* NHSetReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06441968CCED008EFA6F /* NHSetReminderViewController.m */; };
+		7CCF06841968CCED008EFA6F /* NHWishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06461968CCED008EFA6F /* NHWishListViewController.m */; };
+		7CCF06851968CCED008EFA6F /* NHEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06491968CCED008EFA6F /* NHEventsViewController.m */; };
+		7CCF06861968CCED008EFA6F /* NHHoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF064C1968CCED008EFA6F /* NHHoursViewController.m */; };
+		7CCF06871968CCED008EFA6F /* NHNewsItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF064F1968CCED008EFA6F /* NHNewsItemViewController.m */; };
+		7CCF06881968CCED008EFA6F /* NHNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06511968CCED008EFA6F /* NHNewsViewController.m */; };
+		7CCF06891968CCED008EFA6F /* NHVolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06541968CCED008EFA6F /* NHVolViewController.m */; };
+		7CCF068A1968CCED008EFA6F /* WishList.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF06561968CCED008EFA6F /* WishList.json */; };
+		7CCF068B1968CCED008EFA6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF06581968CCED008EFA6F /* InfoPlist.strings */; };
+		7CCF068C1968CCED008EFA6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF065A1968CCED008EFA6F /* Images.xcassets */; };
+		7CCF068D1968CCED008EFA6F /* CollapseClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF065E1968CCED008EFA6F /* CollapseClick.m */; };
+		7CCF068E1968CCED008EFA6F /* CollapseClickArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06601968CCED008EFA6F /* CollapseClickArrow.m */; };
+		7CCF068F1968CCED008EFA6F /* CollapseClickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06621968CCED008EFA6F /* CollapseClickCell.m */; };
+		7CCF06901968CCED008EFA6F /* CollapseClickCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF06631968CCED008EFA6F /* CollapseClickCell.xib */; };
+		7CCF06911968CCED008EFA6F /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06681968CCED008EFA6F /* NSString+XMLEntities.m */; };
+		7CCF06921968CCED008EFA6F /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF066B1968CCED008EFA6F /* GTMNSString+HTML.m */; };
+		7CCF06931968CCED008EFA6F /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF066D1968CCED008EFA6F /* NSDate+InternetDateTime.m */; };
+		7CCF06941968CCED008EFA6F /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF066F1968CCED008EFA6F /* NSString+HTML.m */; };
+		7CCF06951968CCED008EFA6F /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06721968CCED008EFA6F /* MWFeedInfo.m */; };
+		7CCF06961968CCED008EFA6F /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06741968CCED008EFA6F /* MWFeedItem.m */; };
+		7CCF06971968CCED008EFA6F /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06761968CCED008EFA6F /* MWFeedParser.m */; };
+		7CCF06981968CCED008EFA6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF06791968CCED008EFA6F /* main.m */; };
+		7CCF069A1968CCED008EFA6F /* NHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF067D1968CCED008EFA6F /* NHAppDelegate.m */; };
+		7CCF069B1968CCED008EFA6F /* NHMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF067F1968CCED008EFA6F /* NHMain.m */; };
+		7CCF06A61968CF25008EFA6F /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF06A01968CF25008EFA6F /* email.png */; };
+		7CCF06A71968CF25008EFA6F /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF06A11968CF25008EFA6F /* facebook.png */; };
+		7CCF06A81968CF25008EFA6F /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF06A21968CF25008EFA6F /* header.png */; };
+		7CCF06A91968CF25008EFA6F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF06A31968CF25008EFA6F /* Icon.png */; };
+		7CCF06AA1968CF25008EFA6F /* page header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF06A41968CF25008EFA6F /* page header.png */; };
+		7CCF06AB1968CF25008EFA6F /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF06A51968CF25008EFA6F /* phone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,44 +66,81 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		75758D4519287070007229FB /* NHWishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHWishListViewController.h; sourceTree = "<group>"; };
-		75758D4619287070007229FB /* NHWishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHWishListViewController.m; sourceTree = "<group>"; };
-		75758D4A192899C6007229FB /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		75CA54451928439500905267 /* New Horizons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Horizons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CA54481928439500905267 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75CA544A1928439500905267 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		75CA544C1928439500905267 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		75CA54501928439500905267 /* New Horizons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "New Horizons-Info.plist"; sourceTree = "<group>"; };
-		75CA54521928439500905267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		75CA54541928439500905267 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75CA54561928439500905267 /* New Horizons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "New Horizons-Prefix.pch"; sourceTree = "<group>"; };
-		75CA54571928439500905267 /* NHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAppDelegate.h; sourceTree = "<group>"; };
-		75CA54581928439500905267 /* NHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAppDelegate.m; sourceTree = "<group>"; };
-		75CA54601928439500905267 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75CA54661928439500905267 /* New HorizonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New HorizonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CA54671928439500905267 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		75CA546F1928439500905267 /* New HorizonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "New HorizonsTests-Info.plist"; sourceTree = "<group>"; };
 		75CA54711928439500905267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75CA54731928439500905267 /* New_HorizonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = New_HorizonsTests.m; sourceTree = "<group>"; };
-		75CA547D19284B1200905267 /* NHContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHContactViewController.h; sourceTree = "<group>"; };
-		75CA547E19284B1200905267 /* NHContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHContactViewController.m; sourceTree = "<group>"; };
-		75CA547F19284B1200905267 /* NHDonate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDonate.h; sourceTree = "<group>"; };
-		75CA548019284B1200905267 /* NHDonate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDonate.m; sourceTree = "<group>"; };
-		75CA548119284B1200905267 /* NHEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHEventsViewController.h; sourceTree = "<group>"; };
-		75CA548219284B1200905267 /* NHEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHEventsViewController.m; sourceTree = "<group>"; };
-		75CA548319284B1200905267 /* NHHoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHoursViewController.h; sourceTree = "<group>"; };
-		75CA548419284B1200905267 /* NHHoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHHoursViewController.m; sourceTree = "<group>"; };
-		75CA548519284B1200905267 /* NHMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMain.h; sourceTree = "<group>"; };
-		75CA548619284B1200905267 /* NHMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHMain.m; sourceTree = "<group>"; };
-		75CA548719284B1200905267 /* NHNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNewsViewController.h; sourceTree = "<group>"; };
-		75CA548819284B1200905267 /* NHNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHNewsViewController.m; sourceTree = "<group>"; };
-		75CA548919284B1200905267 /* NHVolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHVolViewController.h; sourceTree = "<group>"; };
-		75CA548A19284B1200905267 /* NHVolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHVolViewController.m; sourceTree = "<group>"; };
-		75CA549219284B1800905267 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		75CA549419284BDB00905267 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
-		75CA549519284BDB00905267 /* page header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page header.png"; sourceTree = "<group>"; };
-		7CF05F60192CF11A00876A8E /* NHCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCommon.h; sourceTree = "<group>"; };
-		7CF05F61192CF11A00876A8E /* NHCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCommon.m; sourceTree = "<group>"; };
+		75CA549219284B1800905267 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "New Horizons/Main.storyboard"; sourceTree = "<group>"; };
+		7C4C0CD11969B58A00C2F645 /* Contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contacts.json; sourceTree = "<group>"; };
+		7C4C0CD81969F6AD00C2F645 /* TaggedTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaggedTap.h; sourceTree = "<group>"; };
+		7C4C0CD91969F6AD00C2F645 /* TaggedTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaggedTap.m; sourceTree = "<group>"; };
+		7C655B991968DFFA006C2B4C /* NHEventsItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHEventsItemViewController.h; sourceTree = "<group>"; };
+		7C655B9A1968DFFA006C2B4C /* NHEventsItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHEventsItemViewController.m; sourceTree = "<group>"; };
+		7C655B9C1968E8DA006C2B4C /* Hours.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hours.json; sourceTree = "<group>"; };
+		7CCF06391968CCED008EFA6F /* NHCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCommon.h; sourceTree = "<group>"; };
+		7CCF063A1968CCED008EFA6F /* NHCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCommon.m; sourceTree = "<group>"; };
+		7CCF063B1968CCED008EFA6F /* NHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHConstants.h; sourceTree = "<group>"; };
+		7CCF063E1968CCED008EFA6F /* NHContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHContactViewController.h; sourceTree = "<group>"; };
+		7CCF063F1968CCED008EFA6F /* NHContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHContactViewController.m; sourceTree = "<group>"; };
+		7CCF06411968CCED008EFA6F /* NHDonate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDonate.h; sourceTree = "<group>"; };
+		7CCF06421968CCED008EFA6F /* NHDonate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDonate.m; sourceTree = "<group>"; };
+		7CCF06431968CCED008EFA6F /* NHSetReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSetReminderViewController.h; sourceTree = "<group>"; };
+		7CCF06441968CCED008EFA6F /* NHSetReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSetReminderViewController.m; sourceTree = "<group>"; };
+		7CCF06451968CCED008EFA6F /* NHWishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHWishListViewController.h; sourceTree = "<group>"; };
+		7CCF06461968CCED008EFA6F /* NHWishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHWishListViewController.m; sourceTree = "<group>"; };
+		7CCF06481968CCED008EFA6F /* NHEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHEventsViewController.h; sourceTree = "<group>"; };
+		7CCF06491968CCED008EFA6F /* NHEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHEventsViewController.m; sourceTree = "<group>"; };
+		7CCF064B1968CCED008EFA6F /* NHHoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHoursViewController.h; sourceTree = "<group>"; };
+		7CCF064C1968CCED008EFA6F /* NHHoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHHoursViewController.m; sourceTree = "<group>"; };
+		7CCF064E1968CCED008EFA6F /* NHNewsItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNewsItemViewController.h; sourceTree = "<group>"; };
+		7CCF064F1968CCED008EFA6F /* NHNewsItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHNewsItemViewController.m; sourceTree = "<group>"; };
+		7CCF06501968CCED008EFA6F /* NHNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNewsViewController.h; sourceTree = "<group>"; };
+		7CCF06511968CCED008EFA6F /* NHNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHNewsViewController.m; sourceTree = "<group>"; };
+		7CCF06531968CCED008EFA6F /* NHVolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHVolViewController.h; sourceTree = "<group>"; };
+		7CCF06541968CCED008EFA6F /* NHVolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHVolViewController.m; sourceTree = "<group>"; };
+		7CCF06561968CCED008EFA6F /* WishList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WishList.json; sourceTree = "<group>"; };
+		7CCF06591968CCED008EFA6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		7CCF065A1968CCED008EFA6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CCF065D1968CCED008EFA6F /* CollapseClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClick.h; sourceTree = "<group>"; };
+		7CCF065E1968CCED008EFA6F /* CollapseClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClick.m; sourceTree = "<group>"; };
+		7CCF065F1968CCED008EFA6F /* CollapseClickArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClickArrow.h; sourceTree = "<group>"; };
+		7CCF06601968CCED008EFA6F /* CollapseClickArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClickArrow.m; sourceTree = "<group>"; };
+		7CCF06611968CCED008EFA6F /* CollapseClickCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapseClickCell.h; sourceTree = "<group>"; };
+		7CCF06621968CCED008EFA6F /* CollapseClickCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapseClickCell.m; sourceTree = "<group>"; };
+		7CCF06631968CCED008EFA6F /* CollapseClickCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollapseClickCell.xib; sourceTree = "<group>"; };
+		7CCF06671968CCED008EFA6F /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		7CCF06681968CCED008EFA6F /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		7CCF066A1968CCED008EFA6F /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		7CCF066B1968CCED008EFA6F /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		7CCF066C1968CCED008EFA6F /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		7CCF066D1968CCED008EFA6F /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		7CCF066E1968CCED008EFA6F /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		7CCF066F1968CCED008EFA6F /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		7CCF06711968CCED008EFA6F /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedInfo.h; sourceTree = "<group>"; };
+		7CCF06721968CCED008EFA6F /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedInfo.m; sourceTree = "<group>"; };
+		7CCF06731968CCED008EFA6F /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedItem.h; sourceTree = "<group>"; };
+		7CCF06741968CCED008EFA6F /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedItem.m; sourceTree = "<group>"; };
+		7CCF06751968CCED008EFA6F /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser.h; sourceTree = "<group>"; };
+		7CCF06761968CCED008EFA6F /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParser.m; sourceTree = "<group>"; };
+		7CCF06771968CCED008EFA6F /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser_Private.h; sourceTree = "<group>"; };
+		7CCF06791968CCED008EFA6F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CCF067C1968CCED008EFA6F /* NHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAppDelegate.h; sourceTree = "<group>"; };
+		7CCF067D1968CCED008EFA6F /* NHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAppDelegate.m; sourceTree = "<group>"; };
+		7CCF067E1968CCED008EFA6F /* NHMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMain.h; sourceTree = "<group>"; };
+		7CCF067F1968CCED008EFA6F /* NHMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHMain.m; sourceTree = "<group>"; };
+		7CCF069C1968CD85008EFA6F /* New Horizons-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "New Horizons-Info.plist"; path = "New Horizons/New Horizons-Info.plist"; sourceTree = "<group>"; };
+		7CCF069D1968CD85008EFA6F /* New Horizons-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "New Horizons-Prefix.pch"; path = "New Horizons/New Horizons-Prefix.pch"; sourceTree = "<group>"; };
+		7CCF06A01968CF25008EFA6F /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		7CCF06A11968CF25008EFA6F /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		7CCF06A21968CF25008EFA6F /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		7CCF06A31968CF25008EFA6F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7CCF06A41968CF25008EFA6F /* page header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page header.png"; sourceTree = "<group>"; };
+		7CCF06A51968CF25008EFA6F /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +170,9 @@
 		75CA543C1928439500905267 = {
 			isa = PBXGroup;
 			children = (
+				75CA549219284B1800905267 /* Main.storyboard */,
+				7CCF069C1968CD85008EFA6F /* New Horizons-Info.plist */,
+				7CCF069D1968CD85008EFA6F /* New Horizons-Prefix.pch */,
 				75CA544E1928439500905267 /* New Horizons */,
 				75CA546D1928439500905267 /* New HorizonsTests */,
 				75CA54471928439500905267 /* Frameworks */,
@@ -143,45 +204,16 @@
 		75CA544E1928439500905267 /* New Horizons */ = {
 			isa = PBXGroup;
 			children = (
-				75CA549219284B1800905267 /* Main.storyboard */,
-				75CA547D19284B1200905267 /* NHContactViewController.h */,
-				75CA547E19284B1200905267 /* NHContactViewController.m */,
-				75CA547F19284B1200905267 /* NHDonate.h */,
-				75CA548019284B1200905267 /* NHDonate.m */,
-				75758D4519287070007229FB /* NHWishListViewController.h */,
-				75758D4619287070007229FB /* NHWishListViewController.m */,
-				75CA548119284B1200905267 /* NHEventsViewController.h */,
-				75CA548219284B1200905267 /* NHEventsViewController.m */,
-				75CA548319284B1200905267 /* NHHoursViewController.h */,
-				75CA548419284B1200905267 /* NHHoursViewController.m */,
-				75CA548519284B1200905267 /* NHMain.h */,
-				75CA548619284B1200905267 /* NHMain.m */,
-				75CA548719284B1200905267 /* NHNewsViewController.h */,
-				75CA548819284B1200905267 /* NHNewsViewController.m */,
-				75CA548919284B1200905267 /* NHVolViewController.h */,
-				75CA548A19284B1200905267 /* NHVolViewController.m */,
-				75CA54571928439500905267 /* NHAppDelegate.h */,
-				75CA54581928439500905267 /* NHAppDelegate.m */,
-				75CA54601928439500905267 /* Images.xcassets */,
-				75CA544F1928439500905267 /* Supporting Files */,
-				7CF05F60192CF11A00876A8E /* NHCommon.h */,
-				7CF05F61192CF11A00876A8E /* NHCommon.m */,
+				7CCF069F1968CF25008EFA6F /* Images */,
+				7CCF06381968CCED008EFA6F /* Common */,
+				7CCF063C1968CCED008EFA6F /* Components */,
+				7CCF06551968CCED008EFA6F /* Data */,
+				7CCF06571968CCED008EFA6F /* en.lproj */,
+				7CCF065A1968CCED008EFA6F /* Images.xcassets */,
+				7CCF065B1968CCED008EFA6F /* Libraries */,
+				7CCF06781968CCED008EFA6F /* Main */,
 			);
 			path = "New Horizons";
-			sourceTree = "<group>";
-		};
-		75CA544F1928439500905267 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				75758D4A192899C6007229FB /* facebook.png */,
-				75CA549419284BDB00905267 /* header.png */,
-				75CA549519284BDB00905267 /* page header.png */,
-				75CA54501928439500905267 /* New Horizons-Info.plist */,
-				75CA54511928439500905267 /* InfoPlist.strings */,
-				75CA54541928439500905267 /* main.m */,
-				75CA54561928439500905267 /* New Horizons-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		75CA546D1928439500905267 /* New HorizonsTests */ = {
@@ -200,6 +232,221 @@
 				75CA54701928439500905267 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C4C0CD71969F69A00C2F645 /* TaggedTap */ = {
+			isa = PBXGroup;
+			children = (
+				7C4C0CD81969F6AD00C2F645 /* TaggedTap.h */,
+				7C4C0CD91969F6AD00C2F645 /* TaggedTap.m */,
+			);
+			path = TaggedTap;
+			sourceTree = "<group>";
+		};
+		7CCF06381968CCED008EFA6F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06391968CCED008EFA6F /* NHCommon.h */,
+				7CCF063A1968CCED008EFA6F /* NHCommon.m */,
+				7CCF063B1968CCED008EFA6F /* NHConstants.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7CCF063C1968CCED008EFA6F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF063D1968CCED008EFA6F /* Contacts UI */,
+				7CCF06401968CCED008EFA6F /* Donate UI */,
+				7CCF06471968CCED008EFA6F /* Events UI */,
+				7CCF064A1968CCED008EFA6F /* Hours UI */,
+				7CCF064D1968CCED008EFA6F /* News UI */,
+				7CCF06521968CCED008EFA6F /* Volunteer UI */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7CCF063D1968CCED008EFA6F /* Contacts UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF063E1968CCED008EFA6F /* NHContactViewController.h */,
+				7CCF063F1968CCED008EFA6F /* NHContactViewController.m */,
+			);
+			path = "Contacts UI";
+			sourceTree = "<group>";
+		};
+		7CCF06401968CCED008EFA6F /* Donate UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06411968CCED008EFA6F /* NHDonate.h */,
+				7CCF06421968CCED008EFA6F /* NHDonate.m */,
+				7CCF06431968CCED008EFA6F /* NHSetReminderViewController.h */,
+				7CCF06441968CCED008EFA6F /* NHSetReminderViewController.m */,
+				7CCF06451968CCED008EFA6F /* NHWishListViewController.h */,
+				7CCF06461968CCED008EFA6F /* NHWishListViewController.m */,
+			);
+			path = "Donate UI";
+			sourceTree = "<group>";
+		};
+		7CCF06471968CCED008EFA6F /* Events UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06481968CCED008EFA6F /* NHEventsViewController.h */,
+				7CCF06491968CCED008EFA6F /* NHEventsViewController.m */,
+				7C655B991968DFFA006C2B4C /* NHEventsItemViewController.h */,
+				7C655B9A1968DFFA006C2B4C /* NHEventsItemViewController.m */,
+			);
+			path = "Events UI";
+			sourceTree = "<group>";
+		};
+		7CCF064A1968CCED008EFA6F /* Hours UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF064B1968CCED008EFA6F /* NHHoursViewController.h */,
+				7CCF064C1968CCED008EFA6F /* NHHoursViewController.m */,
+			);
+			path = "Hours UI";
+			sourceTree = "<group>";
+		};
+		7CCF064D1968CCED008EFA6F /* News UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF064E1968CCED008EFA6F /* NHNewsItemViewController.h */,
+				7CCF064F1968CCED008EFA6F /* NHNewsItemViewController.m */,
+				7CCF06501968CCED008EFA6F /* NHNewsViewController.h */,
+				7CCF06511968CCED008EFA6F /* NHNewsViewController.m */,
+			);
+			path = "News UI";
+			sourceTree = "<group>";
+		};
+		7CCF06521968CCED008EFA6F /* Volunteer UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06531968CCED008EFA6F /* NHVolViewController.h */,
+				7CCF06541968CCED008EFA6F /* NHVolViewController.m */,
+			);
+			path = "Volunteer UI";
+			sourceTree = "<group>";
+		};
+		7CCF06551968CCED008EFA6F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7C4C0CD11969B58A00C2F645 /* Contacts.json */,
+				7C655B9C1968E8DA006C2B4C /* Hours.json */,
+				7CCF06561968CCED008EFA6F /* WishList.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7CCF06571968CCED008EFA6F /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06581968CCED008EFA6F /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		7CCF065B1968CCED008EFA6F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7C4C0CD71969F69A00C2F645 /* TaggedTap */,
+				7CCF065C1968CCED008EFA6F /* CollapseClick */,
+				7CCF06641968CCED008EFA6F /* RSS */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		7CCF065C1968CCED008EFA6F /* CollapseClick */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF065D1968CCED008EFA6F /* CollapseClick.h */,
+				7CCF065E1968CCED008EFA6F /* CollapseClick.m */,
+				7CCF065F1968CCED008EFA6F /* CollapseClickArrow.h */,
+				7CCF06601968CCED008EFA6F /* CollapseClickArrow.m */,
+				7CCF06611968CCED008EFA6F /* CollapseClickCell.h */,
+				7CCF06621968CCED008EFA6F /* CollapseClickCell.m */,
+				7CCF06631968CCED008EFA6F /* CollapseClickCell.xib */,
+			);
+			path = CollapseClick;
+			sourceTree = "<group>";
+		};
+		7CCF06641968CCED008EFA6F /* RSS */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06651968CCED008EFA6F /* Categories */,
+				7CCF06701968CCED008EFA6F /* MWFeedParser */,
+			);
+			path = RSS;
+			sourceTree = "<group>";
+		};
+		7CCF06651968CCED008EFA6F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06661968CCED008EFA6F /* Depreciated */,
+				7CCF06691968CCED008EFA6F /* Google Toolbox for Mac */,
+				7CCF066C1968CCED008EFA6F /* NSDate+InternetDateTime.h */,
+				7CCF066D1968CCED008EFA6F /* NSDate+InternetDateTime.m */,
+				7CCF066E1968CCED008EFA6F /* NSString+HTML.h */,
+				7CCF066F1968CCED008EFA6F /* NSString+HTML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		7CCF06661968CCED008EFA6F /* Depreciated */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06671968CCED008EFA6F /* NSString+XMLEntities.h */,
+				7CCF06681968CCED008EFA6F /* NSString+XMLEntities.m */,
+			);
+			path = Depreciated;
+			sourceTree = "<group>";
+		};
+		7CCF06691968CCED008EFA6F /* Google Toolbox for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF066A1968CCED008EFA6F /* GTMNSString+HTML.h */,
+				7CCF066B1968CCED008EFA6F /* GTMNSString+HTML.m */,
+			);
+			path = "Google Toolbox for Mac";
+			sourceTree = "<group>";
+		};
+		7CCF06701968CCED008EFA6F /* MWFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06711968CCED008EFA6F /* MWFeedInfo.h */,
+				7CCF06721968CCED008EFA6F /* MWFeedInfo.m */,
+				7CCF06731968CCED008EFA6F /* MWFeedItem.h */,
+				7CCF06741968CCED008EFA6F /* MWFeedItem.m */,
+				7CCF06751968CCED008EFA6F /* MWFeedParser.h */,
+				7CCF06761968CCED008EFA6F /* MWFeedParser.m */,
+				7CCF06771968CCED008EFA6F /* MWFeedParser_Private.h */,
+			);
+			path = MWFeedParser;
+			sourceTree = "<group>";
+		};
+		7CCF06781968CCED008EFA6F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06791968CCED008EFA6F /* main.m */,
+				7CCF067C1968CCED008EFA6F /* NHAppDelegate.h */,
+				7CCF067D1968CCED008EFA6F /* NHAppDelegate.m */,
+				7CCF067E1968CCED008EFA6F /* NHMain.h */,
+				7CCF067F1968CCED008EFA6F /* NHMain.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7CCF069F1968CF25008EFA6F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF06A01968CF25008EFA6F /* email.png */,
+				7CCF06A11968CF25008EFA6F /* facebook.png */,
+				7CCF06A21968CF25008EFA6F /* header.png */,
+				7CCF06A31968CF25008EFA6F /* Icon.png */,
+				7CCF06A41968CF25008EFA6F /* page header.png */,
+				7CCF06A51968CF25008EFA6F /* phone.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,12 +526,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4C0CD21969B58A00C2F645 /* Contacts.json in Resources */,
+				7CCF06A91968CF25008EFA6F /* Icon.png in Resources */,
+				7CCF06AB1968CF25008EFA6F /* phone.png in Resources */,
+				7CCF068A1968CCED008EFA6F /* WishList.json in Resources */,
+				7CCF068C1968CCED008EFA6F /* Images.xcassets in Resources */,
+				7CCF06A61968CF25008EFA6F /* email.png in Resources */,
+				7CCF06A71968CF25008EFA6F /* facebook.png in Resources */,
+				7CCF068B1968CCED008EFA6F /* InfoPlist.strings in Resources */,
+				7C655B9D1968E8DA006C2B4C /* Hours.json in Resources */,
+				7CCF06AA1968CF25008EFA6F /* page header.png in Resources */,
 				75CA549319284B1800905267 /* Main.storyboard in Resources */,
-				75758D4B192899C6007229FB /* facebook.png in Resources */,
-				75CA549719284BDB00905267 /* page header.png in Resources */,
-				75CA54611928439500905267 /* Images.xcassets in Resources */,
-				75CA549619284BDB00905267 /* header.png in Resources */,
-				75CA54531928439500905267 /* InfoPlist.strings in Resources */,
+				7CCF06A81968CF25008EFA6F /* header.png in Resources */,
+				7CCF06901968CCED008EFA6F /* CollapseClickCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,17 +557,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CF05F62192CF11A00876A8E /* NHCommon.m in Sources */,
-				75CA54591928439500905267 /* NHAppDelegate.m in Sources */,
-				75758D4719287070007229FB /* NHWishListViewController.m in Sources */,
-				75CA54551928439500905267 /* main.m in Sources */,
-				75CA548C19284B1200905267 /* NHDonate.m in Sources */,
-				75CA549019284B1200905267 /* NHNewsViewController.m in Sources */,
-				75CA549119284B1200905267 /* NHVolViewController.m in Sources */,
-				75CA548F19284B1200905267 /* NHMain.m in Sources */,
-				75CA548D19284B1200905267 /* NHEventsViewController.m in Sources */,
-				75CA548E19284B1200905267 /* NHHoursViewController.m in Sources */,
-				75CA548B19284B1200905267 /* NHContactViewController.m in Sources */,
+				7C655B9B1968DFFA006C2B4C /* NHEventsItemViewController.m in Sources */,
+				7CCF06911968CCED008EFA6F /* NSString+XMLEntities.m in Sources */,
+				7CCF06801968CCED008EFA6F /* NHCommon.m in Sources */,
+				7CCF06971968CCED008EFA6F /* MWFeedParser.m in Sources */,
+				7CCF06921968CCED008EFA6F /* GTMNSString+HTML.m in Sources */,
+				7CCF06841968CCED008EFA6F /* NHWishListViewController.m in Sources */,
+				7CCF06961968CCED008EFA6F /* MWFeedItem.m in Sources */,
+				7CCF06931968CCED008EFA6F /* NSDate+InternetDateTime.m in Sources */,
+				7CCF06941968CCED008EFA6F /* NSString+HTML.m in Sources */,
+				7CCF06891968CCED008EFA6F /* NHVolViewController.m in Sources */,
+				7CCF06861968CCED008EFA6F /* NHHoursViewController.m in Sources */,
+				7CCF068F1968CCED008EFA6F /* CollapseClickCell.m in Sources */,
+				7CCF06811968CCED008EFA6F /* NHContactViewController.m in Sources */,
+				7C4C0CDA1969F6AD00C2F645 /* TaggedTap.m in Sources */,
+				7CCF068D1968CCED008EFA6F /* CollapseClick.m in Sources */,
+				7CCF069B1968CCED008EFA6F /* NHMain.m in Sources */,
+				7CCF06951968CCED008EFA6F /* MWFeedInfo.m in Sources */,
+				7CCF06821968CCED008EFA6F /* NHDonate.m in Sources */,
+				7CCF068E1968CCED008EFA6F /* CollapseClickArrow.m in Sources */,
+				7CCF06831968CCED008EFA6F /* NHSetReminderViewController.m in Sources */,
+				7CCF06881968CCED008EFA6F /* NHNewsViewController.m in Sources */,
+				7CCF06871968CCED008EFA6F /* NHNewsItemViewController.m in Sources */,
+				7CCF06981968CCED008EFA6F /* main.m in Sources */,
+				7CCF069A1968CCED008EFA6F /* NHAppDelegate.m in Sources */,
+				7CCF06851968CCED008EFA6F /* NHEventsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,18 +604,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		75CA54511928439500905267 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75CA54521928439500905267 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		75CA54701928439500905267 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				75CA54711928439500905267 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CCF06581968CCED008EFA6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCF06591968CCED008EFA6F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -387,7 +655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -419,7 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -432,8 +700,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "New Horizons/New Horizons-Prefix.pch";
-				INFOPLIST_FILE = "New Horizons/New Horizons-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/New Horizons/New Horizons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -445,8 +715,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "New Horizons/New Horizons-Prefix.pch";
-				INFOPLIST_FILE = "New Horizons/New Horizons-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/New Horizons/New Horizons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
