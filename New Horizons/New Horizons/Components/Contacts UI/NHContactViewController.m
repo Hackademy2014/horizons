@@ -35,7 +35,7 @@
 //Call contact handler
 - (IBAction)callContact:(id)sender{
 	NSString *number = [sender tapData];
-    NSURL *callUrl = [NSURL URLWithString:[@"tel://" stringByAppendingString:number]];
+    NSURL *callUrl = [NSURL URLWithString:[@"tel:" stringByAppendingString:number]];
     if ([[UIApplication sharedApplication] canOpenURL:callUrl]){
 		[[UIApplication sharedApplication] openURL:callUrl];
     }
@@ -44,7 +44,7 @@
 //Email contact handler
 - (IBAction)emailContact:(id)sender{
 	NSString *email = [sender tapData];
-    NSURL *emailUrl = [NSURL URLWithString:[@"mailto://" stringByAppendingString:email]];
+    NSURL *emailUrl = [NSURL URLWithString:[@"mailto:" stringByAppendingString:email]];
     if ([[UIApplication sharedApplication] canOpenURL:emailUrl]){
 		[[UIApplication sharedApplication] openURL:emailUrl];
     }

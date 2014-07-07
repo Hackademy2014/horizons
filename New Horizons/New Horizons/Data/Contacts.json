@@ -8,7 +8,7 @@
 			],
 			"phone" : {
 				"display" : "(603)-668-1877",
-				"numeric" : "6036681877"
+				"numeric" : "1-603-668-1877"
 			},
 			"fax" : "(603)-668-2578"
 		},
@@ -20,7 +20,7 @@
 			],
 			"phone" : {
 				"display" : "(603)-668-8698",
-				"numeric" : "6036688698"
+				"numeric" : "1-603-668-8698"
 			}
 		}
 	],
@@ -30,7 +30,7 @@
 			"position" : "Executive Director",
 			"phone" : {
 				"display" : "(603)-668-1877 x114",
-				"numeric" : "6036681877p114"
+				"numeric" : "1-603-668-1877p114"
 			},
 			"email" : "Charlie.Sherman@newhorizonsfornh.org"
 		},
@@ -39,7 +39,7 @@
 			"position" : "Program Director",
 			"phone" : {
 				"display" : "(603)-668-1877 x115",
-				"numeric" : "6036681877p115"
+				"numeric" : "1-603-668-1877p115"
 			},
 			"email" : "Kevin.Kintner@newhorizonsfornh.org"
 		},
@@ -48,7 +48,7 @@
 			"position" : "Finance Manager",
 			"phone" : {
 				"display" : "(603)-668-1877 x119",
-				"numeric" : "6036681877p119"
+				"numeric" : "1-603-668-1877p119"
 			},
 			"email" : "Finance01@newhorizonsfornh.org"
 		},
@@ -57,7 +57,7 @@
 			"position" : "Food Service & Volunteer Manager",
 			"phone" : {
 				"display" : "(603)-668-1877 x122",
-				"numeric" : "6036681877p122"
+				"numeric" : "1-603-668-1877p122"
 			},
 			"email" : "Mary.Silva@newhorizonsfornh.org"
 		},
@@ -66,7 +66,7 @@
 			"position" : "Development Director",
 			"phone" : {
 				"display" : "(603)-668-1877 x125",
-				"numeric" : "6036681877p125"
+				"numeric" : "1-603-668-1877p125"
 			},
 			"email" : "Michelle.Casale@newhorizonsfornh.org"
 		},
@@ -75,7 +75,7 @@
 			"position" : "Angie's Program Director",
 			"phone" : {
 				"display" : "(603)-668-8698",
-				"numeric" : "6036688698"
+				"numeric" : "1-603-668-8698"
 			},
 			"email" : "angies@newhorizonsfornh.org"
 		}
