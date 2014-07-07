@@ -18,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationController.navigationBar.hidden = NO;
+    // Do any additional setup after loading the view.
+	self.navigationController.navigationBar.translucent = NO;
+	self.navigationController.navigationBar.hidden = NO;
+	
     //Get hours
 	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 		NSError *internetError;

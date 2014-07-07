@@ -31,6 +31,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+	self.navigationController.navigationBar.translucent = NO;
+	self.navigationController.navigationBar.hidden = NO;
 	self.itemList.text = items;
     self.itemList.textColor = [UIColor orangeColor];
     self.itemList.font = [UIFont fontWithName:@"Papyrus" size:16.0];

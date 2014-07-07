@@ -18,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationController.navigationBar.hidden = NO;
+    // Do any additional setup after loading the view.
+	self.navigationController.navigationBar.translucent = NO;
+	self.navigationController.navigationBar.hidden = NO;
     
     NSArray *buttons = [NSArray arrayWithObjects: self.btnVolNow, nil];
     styleButtonsWithGradient(buttons, kOrangeGradient, 5.0f, 0.0f, kBlack, kWhite, kBlack, @"HelveticaNeue-Bold", 16.0f);

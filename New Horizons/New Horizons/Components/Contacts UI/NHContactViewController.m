@@ -55,6 +55,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+	self.navigationController.navigationBar.translucent = NO;
 	self.navigationController.navigationBar.hidden = NO;
 	
     //Get contact information
@@ -84,8 +85,7 @@
 	//Reload list
 	contactList.CollapseClickDelegate = self;
 	[contactList reloadCollapseClick];
-	contactList.contentSize = contactList.bounds.size;
-	contactList.contentOffset = CGPointMake(0, -60);
+	contactList.contentSize = CGSizeMake(contactList.frame.size.width, ( contactList.frame.size.height + 100 ));
 }
 
 -(int)numberOfCellsForCollapseClick{
