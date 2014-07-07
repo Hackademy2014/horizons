@@ -18,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //makes sure the navigation bar is showing on this page
+    // Do any additional setup after loading the view.
+	self.navigationController.navigationBar.translucent = NO;
 	self.navigationController.navigationBar.hidden = NO;
     
     NSArray *buttons = [NSArray arrayWithObjects: self.btnWishList, self.btnMoney, nil];

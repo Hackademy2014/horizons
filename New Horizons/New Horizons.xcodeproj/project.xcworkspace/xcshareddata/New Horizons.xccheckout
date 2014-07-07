@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0ED9FD69-8E8C-4695-9B0A-09C79F8C08A3</string>
+	<string>9FDE62FE-CCF3-4BC6-B537-1044F3CA7BC7</string>
 	<key>IDESourceControlProjectName</key>
 	<string>New Horizons</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>046D0993-8BA3-4BA9-BBA2-604C56D270BD</key>
-		<string>https://github.com/Hackademy2014/horizons.git</string>
+		<key>B52A0391-A2EF-4270-98AB-9FFEDB3572C5</key>
+		<string>https://github.com/josephmorrill/horizons.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>New Horizons/New Horizons.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>046D0993-8BA3-4BA9-BBA2-604C56D270BD</key>
+		<key>B52A0391-A2EF-4270-98AB-9FFEDB3572C5</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Hackademy2014/horizons.git</string>
+	<string>https://github.com/josephmorrill/horizons.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>046D0993-8BA3-4BA9-BBA2-604C56D270BD</string>
+	<string>B52A0391-A2EF-4270-98AB-9FFEDB3572C5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>046D0993-8BA3-4BA9-BBA2-604C56D270BD</string>
+			<string>B52A0391-A2EF-4270-98AB-9FFEDB3572C5</string>
 			<key>IDESourceControlWCCName</key>
-			<string>horizons</string>
+			<string>newhorizons</string>
 		</dict>
 	</array>
 </dict>

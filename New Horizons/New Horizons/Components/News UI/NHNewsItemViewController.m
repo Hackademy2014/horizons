@@ -19,8 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.navigationController.navigationBar.hidden = NO;
     // Do any additional setup after loading the view.
+	self.navigationController.navigationBar.translucent = NO;
+	self.navigationController.navigationBar.hidden = NO;
 	
 	NSString *content = [kWebContentStyle stringByAppendingString:[item summary]];
 	[contentView loadHTMLString:content baseURL:kNewsBaseUrl];
